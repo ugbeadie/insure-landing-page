@@ -21,7 +21,7 @@ burger.addEventListener('click', () => {
 
 window.addEventListener ('scroll', function() {
     let navBar = document.querySelector('nav');
-    let windowPosition =  window.scrollY > 600;
+    let windowPosition =  window.scrollY > 500;
     navBar.classList.toggle('scrolling-active', windowPosition);
 })
 
