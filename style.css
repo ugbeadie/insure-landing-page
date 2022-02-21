@@ -746,6 +746,14 @@ h1::before {
   .social-links {
     padding-top: 20px;
   }
+  .footer-wrapper {
+    position: relative;
+    background-image: linear-gradient(
+      to bottom,
+      hsl(216, 30%, 68%, 0.2),
+      white
+    );
+  }
   .footer-info {
     display: block;
   }
