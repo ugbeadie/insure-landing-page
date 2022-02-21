@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -16,7 +17,6 @@
 
 body {
   font-family: "Karla", sans-serif;
-  scroll-behavior: smooth;
 }
 
 h1,
