@@ -285,6 +285,8 @@ h1::before {
   font-weight: 600;
 }
 
+/* FOOTER STARTS */
+
 .footer-wrapper {
   position: relative;
   background-image: linear-gradient(
@@ -294,11 +296,9 @@ h1::before {
   );
 }
 
-/* FOOTER STARTS */
-
 .footer {
   margin: 100px 120px 0 120px;
-  padding-top: 50px;
+  padding: 50px 0;
   position: relative;
 }
 
@@ -367,6 +367,16 @@ h1::before {
 
 .mob-nav {
   display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  /* color: var(--white); */
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
 
 @media screen and (max-width: 1350px) {
@@ -469,10 +479,6 @@ h1::before {
   .img-d {
     display: none;
   }
-  /* .img-d {
-    max-width: 100%;
-    display: flex;
-  } */
   .img-m {
     display: flex;
     position: relative;
@@ -567,7 +573,6 @@ h1::before {
   }
   .nav-active {
     display: flex;
-    /* background-color: white; */
   }
   .scrolling-active {
     background-color: var(--grayishblue);
@@ -654,9 +659,6 @@ h1::before {
     width: 100%;
     position: relative;
     background-color: var(--darkviolet);
-    /* background-image: url(images/bg-pattern-intro-left-mobile.svg) no-repeat;
-    background-size: 100% auto;
-    background-position: top left; */
     display: flex;
     flex-direction: column;
     justify-content: center;
